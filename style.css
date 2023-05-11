@@ -54,7 +54,7 @@ h1 {
 
 .hamburger:hover span:nth-child(2) {
     transform: translateX(10px);
-    background-color: var(--primary);
+    background-color: var(--dark);
 }
 
 .hamburger.is-active span:nth-child(1) {
@@ -78,7 +78,7 @@ h1 {
     margin-bottom: 5px;
     position: relative;
 
-    background-color: var(--light);
+    background-color: var(--dark);
     border-radius: 6px;
     z-index: 1;
 
