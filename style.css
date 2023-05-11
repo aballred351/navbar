@@ -1,7 +1,7 @@
 :root {
-    --primary: #8c38ff;
-    --light: #EEEEEE;
-    --dark: #212121; 
+    --primary: #118e89;
+    --light: #ffcf1e;
+    --dark: #322c27; 
 }
 
 * {
@@ -25,13 +25,13 @@ nav {
     left: 0;
     right: 0;
     z-index: 99;
-    background-color: var(--dark);
+    background-color: var(--light);
     padding: 16px 32px;
-    border-bottom: 3px solid var(--primary);
+    border-bottom: 8px solid var(--primary);
 }
     
 h1 {
-    color: #fff;
+    color: var(--dark);
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 2px;
@@ -99,7 +99,7 @@ h1 {
 }
 
 .menu a{
-    color: #fff;
+    color: var(--dark);
     margin: 0 16px;
     font-weight: 600;
     text-decoration: none;
@@ -110,6 +110,7 @@ h1 {
 
 .menu a.is-active, .menu a:hover {
     background-color: var(--primary);
+    color: var(--dark)
 }
 
 @media (min-width: 768px) {
